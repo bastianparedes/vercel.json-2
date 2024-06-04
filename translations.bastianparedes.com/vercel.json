@@ -2,7 +2,7 @@
   "redirects": [
   ],
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://translations-backend.vercel.app/trpc/:path*" },
+    { "source": "/trpc/:path*", "destination": "https://translations-backend.vercel.app/trpc/:path*" },
     { "source": "/", "destination": "https://translations-frontend.vercel.app" },
     { "source": "/:match*", "destination": "https://translations-frontend.vercel.app/:match*" }
   ]
